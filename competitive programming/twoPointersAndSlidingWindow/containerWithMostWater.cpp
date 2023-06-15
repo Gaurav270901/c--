@@ -35,6 +35,8 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
+
 
 int maxArea(vector<int>& height) {
     // Write your code here.
@@ -59,11 +61,6 @@ int maxArea(vector<int>& height) {
 
     return ans ; 
 }
-
-
-
-using namespace std;
-
 
 
 int main() {
